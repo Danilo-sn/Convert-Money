@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    background-color: #e5e5e5;
+}
+
+.conteiner {
+    background: #F4F4F4;
+    width: 375px;
+    height: 780px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.btn_converter {
+    width: 327px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    background: #1B83E2;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #F4F4F4;
+}
+
+.btn_converter:hover {
+    opacity: 0.9;
+}
+
+.btn_converter:active {
+    opacity: 0.6;
+}
+
+header {
+    background-color: #1B83E2;
+    height: 70px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main {
+    padding: 25px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px;
+    color: #F4F4F4;
+}
+
+label {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #777777;
+}
+
+select {
+    background-color: #FFFFFF;
+    height: 50px;
+    display: block;
+    width: 100%;
+    color: #555555;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+
+input {
+    background-color: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    height: 50px;
+    display: block;
+    width: 100%;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px 0px #00000026;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.convention_value {
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+}
+
+.value_conteiner {
+    text-align: center;
+    padding: 10px;
+}
+
+.value_name {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #777777;
+}
+
+.value_current {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #1B83E2;
+
+}
+
+.arrow_img {
+    margin: 10px auto;
+    display: block;
+}
