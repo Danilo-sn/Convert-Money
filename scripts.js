@@ -3,13 +3,15 @@ const inputReal = document.getElementsByClassName('input_real');
 const valueCourrent = document.getElementsByClassName('value_current');
 const valueName = document.getElementsByClassName('value_name')[1];
 const selectCurrency = document.getElementById('select_current');
-const dolar = 5.50;
-const euro = 5.90;
-const btc = 340940
 
-const corvertValues = () => {
+const corvertValues = async () => {
     const reais = inputReal[0].value;
 
+    const moedas = await fetch('https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL').then(res => res.json());
+
+    const dolar = moedas.USDBRL.bid;
+    const euro = moedas.EURBRL.bid;
+    const btc = moedas.BTCBRL.bid;
 
     if (selectCurrency.value === '€ Euro') {
         valueCourrent[1].innerHTML = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(
