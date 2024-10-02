@@ -7,14 +7,16 @@
 
 body {
     background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .conteiner {
     background: #F4F4F4;
     width: 375px;
-    height: 780px;
-    margin: 0 auto;
-    margin-top: 50px;
+    height: 750px;
     border-radius: 10px;
 }
 
@@ -45,6 +47,9 @@ body {
 header {
     background-color: #1B83E2;
     height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px 10px 0px 0px;
 }
 
@@ -57,8 +62,6 @@ h1 {
     font-size: 24px;
     font-weight: 400;
     line-height: 18px;
-    text-align: center;
-    padding: 20px;
     color: #F4F4F4;
 }
 
@@ -67,7 +70,6 @@ label {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
-    text-align: left;
     color: #777777;
 }
 
@@ -80,16 +82,13 @@ select {
     font-size: 16px;
     font-weight: 700;
     line-height: 18px;
-    text-align: left;
     cursor: pointer;
     outline: none;
     appearance: none;
     border: 1px solid #BBBBBB;
     border-radius: 4px;
     box-shadow: 2px 2px 5px 0px #00000026;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 input {
@@ -103,18 +102,24 @@ input {
     box-shadow: 2px 2px 5px 0px #00000026;
     outline: none;
     font-size: 18px;
-    padding-left: 20px;
-    margin-top: 10px;
+    padding-left: 15px;
 }
 
 .convention_value {
     border: 1px solid #1B83E2;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
 }
 
 .value_conteiner {
-    text-align: center;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .value_name {
@@ -129,10 +134,4 @@ input {
     font-weight: 700;
     line-height: 18px;
     color: #1B83E2;
-
-}
-
-.arrow_img {
-    margin: 10px auto;
-    display: block;
 }

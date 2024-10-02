@@ -44,19 +44,19 @@ const changeCurrency = () => {
     const currencyImg = document.getElementById('currency_img');
     if (selectCurrency.value === '€ Euro') {
         valueName.innerHTML = 'Euro';
-        currencyImg.src = './imgs/euro.svg';
+        currencyImg.src = './assets/imgs/euro.svg';
 
     }
 
     if (selectCurrency.value === 'US$ Dólar americano') {
         valueName.innerHTML = 'Dólar americano';
-        currencyImg.src = './imgs/estados-unidos.svg'
+        currencyImg.src = './assets/imgs/estados-unidos.svg'
 
     }
 
     if (selectCurrency.value === 'Bitcoin') {
         valueName.innerHTML = 'Bitcoin';
-        currencyImg.src = './imgs/btc.png'
+        currencyImg.src = './assets/imgs/btc.png'
 
     }
 
